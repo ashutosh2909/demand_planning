@@ -1,0 +1,18 @@
+data:
+  train_path: "/content/drive/MyDrive/Progress/Demand Planning/input_data/train.csv"
+  items_path: "/content/drive/MyDrive/Progress/Demand Planning/input_data/items.csv"
+  stores_path: "/content/drive/MyDrive/Progress/Demand Planning/input_data/stores.csv"
+  holiday_path: "/content/drive/MyDrive/Progress/Demand Planning/input_data/holidays_events.csv"
+  transactions_path: "/content/drive/MyDrive/Progress/Demand Planning/input_data/transactions.csv"
+  oil_path: "/content/drive/MyDrive/Progress/Demand Planning/input_data/oil.csv"
+  log_path: "/content/drive/MyDrive/Progress/Demand Planning/logs/data_prep_logger.txt"
+
+output:
+  filtered_path: "/content/drive/MyDrive/Progress/Demand Planning/intermediate_output/filtered.parquet"
+  final_path: "/content/drive/MyDrive/Progress/Demand Planning/intermediate_output/final.parquet"
+
+processing:
+  category: "SEAFOOD"
+  chunk_size: 10000000
+  train_horizon_years: 3
+  
