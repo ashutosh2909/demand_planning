@@ -1,0 +1,18 @@
+2026-06-01 15:33:29 | INFO     | 1639379351.py:14 | run | ========== PIPELINE START ==========
+2026-06-01 15:33:29 | INFO     | 3762401946.py:6 | wrapper | 🚀 Starting: load_items
+2026-06-01 15:33:29 | INFO     | 3307727757.py:8 | load_items | Items loaded: (4100, 4)
+2026-06-01 15:33:30 | INFO     | 3762401946.py:9 | wrapper | ✅ Completed: load_items in 0.00 mins
+2026-06-01 15:33:30 | INFO     | 3762401946.py:6 | wrapper | 🚀 Starting: load_stores
+2026-06-01 15:33:30 | INFO     | 3307727757.py:14 | load_stores | Stores loaded: (54, 5)
+2026-06-01 15:33:30 | INFO     | 3762401946.py:9 | wrapper | ✅ Completed: load_stores in 0.01 mins
+2026-06-01 15:33:30 | INFO     | 3762401946.py:6 | wrapper | 🚀 Starting: load_transactions
+2026-06-01 15:33:30 | INFO     | 3307727757.py:20 | load_transactions | Transactions loaded: (83488, 3)
+2026-06-01 15:33:30 | INFO     | 3762401946.py:9 | wrapper | ✅ Completed: load_transactions in 0.00 mins
+2026-06-01 15:33:30 | INFO     | 3762401946.py:6 | wrapper | 🚀 Starting: load_oil
+2026-06-01 15:33:30 | INFO     | 3307727757.py:26 | load_oil | Oil data loaded: (1218, 2)
+2026-06-01 15:33:30 | INFO     | 3762401946.py:9 | wrapper | ✅ Completed: load_oil in 0.00 mins
+2026-06-01 15:33:30 | INFO     | 3762401946.py:6 | wrapper | 🚀 Starting: load_holidays
+2026-06-01 15:33:31 | INFO     | 3307727757.py:38 | load_holidays | Holidays aggregated: (312, 3)
+2026-06-01 15:33:31 | INFO     | 3762401946.py:9 | wrapper | ✅ Completed: load_holidays in 0.00 mins
+2026-06-01 15:33:31 | INFO     | 1639379351.py:27 | run | Category 'SEAFOOD' items: (8, 4)
+2026-06-01 15:33:31 | INFO     | 3762401946.py:6 | wrapper | 🚀 Starting: filter_train
